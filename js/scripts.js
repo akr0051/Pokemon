@@ -1,7 +1,7 @@
 let pokemonList = [
   {
     name: "Bulbasar",
-    type: ["grass, poison"],
+    type: ["grass", "poison"],
     height: 0.7
   },
   {
@@ -11,7 +11,7 @@ let pokemonList = [
   },
   {
     name: "Charizard",
-    type: ["fire, water"],
+    type: ["fire", "water"],
     height: 1.7
   }
 ];
