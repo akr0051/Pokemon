@@ -46,10 +46,10 @@ let pokemonRepository = (function (){
   }
 
   return {
-    add: add,
-    getAll: getAll,
-    addListItem: addListItem,
-    showDetails: showDetails
+    add,
+    getAll,
+    addListItem,
+    showDetails
   };
 })();
 
