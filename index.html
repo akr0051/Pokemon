@@ -7,24 +7,25 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
           crossorigin="anonymous"
-    >
+    ><title>Pokédex</title>
     <link rel="icon" type="img/png" href="img/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="dist/styles.min.css" />
   </head>
+  
   <body>
-    <div class="background"></div>
-    <div class="title">
-      <h1>Pokedex</h1>
-    </div>
-    <div id="searchWrapper">
-      <input
-          type="text"
-          name="searchBar"
-          id="searchBar"
-          placeholder="search for a character"
-      />
-    </div>
+    <header>
+      <nav class="navbar">
+        <img src="img/title.png" alt="Pokémon logo">
+        <div class="searchWrapper">
+          <input
+              type="text"
+              name="searchBar"
+              id="searchBar"
+              placeholder="Search for a Pokémon"
+          />
+        </div>
+      </nav>
+    </header>
     <ul class="pokemon-list"></ul>
     <div
       class="modal fade"
