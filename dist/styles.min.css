@@ -44,3 +44,9 @@
   top: 7px;
   right: 15px;
 }
+.background {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
