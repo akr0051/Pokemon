@@ -61,15 +61,23 @@ body {
 .modal-content{
   background-image: url(../img/modalbackground.png);
   background-repeat: no-repeat;
-  background-attachment: fixed; 
   background-size: cover;
   background-position: center;
 }
 
 .modal-body{
-  color: white;
-  font-size: 25px;
+  color: rgb(255, 230, 0);
+  font-size: 16px;
 }
 
+.modal-img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15%;
+  width: 15%;
+}
 
-
+.close{
+  color: red
+}
